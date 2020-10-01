@@ -7,7 +7,7 @@
 
 def prime_universal(inp):
 
-	# Create a boolean array "list_of_prime[0..n]" and initialize 
+    # Create a boolean array "list_of_prime[0..n]" and initialize 
     #  all entries it as true. A value in prime[i] will 
     # finally be false if i is Not a prime, else true. 
 
