@@ -11,7 +11,8 @@ void merge(int arr[], int l, int m, int r)
     int n2 = r - m; 
   
     /* create temp arrays */
-    int L[n1], R[n2]; 
+    int *L = calloc(n1, 4);
+    int *R = calloc(n2, 4);
   
     /* Copy data to temp arrays L[] and R[] */
     for (i = 0; i < n1; i++) 
