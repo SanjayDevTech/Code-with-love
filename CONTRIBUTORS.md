@@ -15,5 +15,6 @@ If you have contributed to this repository, kindly add your username here
 - [aaishikasb](https://github.com/aaishikasb)
 - [sam0hack](https://github.com/sam0hack)
 - [albysabu9](https://github.com/albysabu9)
+- [HarshitGupta150](https://github.com/HarshitGupta150)
 - [qwertymaden](https://github.com/qwertymaden)
 - [mjnorton](https://github.com/mjnorton)
