@@ -1,12 +1,16 @@
-name: Greetings
-
-on: pull_request_target
-
+name: "GreetContributor"
+on:
+  pull_request:
+    types: [opened,synchronize]
+    
 jobs:
-  greeting:
+  GreetCommitter:    
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/first-interaction@v1
-      with:
-        repo-token: ${{ secrets.SECRETS }}
-        pr-message: 'Congratualtions on making your first Pull Request'' first pr'
+    - name: "Greet contributor"
+      uses: ibakshay/greet-contributors-action@v3
+      env: 
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with: 
+        content: "Thank you for taking your time and effort for your contribution, we truly value it. :tada:"
+       #default content is "Thank you for taking your time and effort for your contribution, we truly value it. :tada:" 
