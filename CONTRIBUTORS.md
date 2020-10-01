@@ -13,4 +13,4 @@ If you have contributed to this repository, kindly add your username here
 - [lucifer79gg](https://github.com/lucifer79gg)
 - [sam0hack](https://github.com/sam0hack)
 - [albysabu9](https://github.com/albysabu9)
-- [GhostUser](https://github.com/GhostUser)
+
