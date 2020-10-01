@@ -2,7 +2,6 @@
 
 If you have contributed to this repository, kindly add your username here
 
-
 - [SanjayDevtech](https://github.com/SanjayDevTech)
 - [hritikkhurana10sm](https://github.com/hritikkhurana10sm)
 - [finalight](https://github.com/finalight)
@@ -14,3 +13,4 @@ If you have contributed to this repository, kindly add your username here
 - [aaishikasb](https://github.com/aaishikasb)
 - [sam0hack](https://github.com/sam0hack)
 - [albysabu9](https://github.com/albysabu9)
+- [Rizky Jayusman](https://github.com/rizkyjayusman)
