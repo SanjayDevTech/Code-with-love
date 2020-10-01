@@ -8,5 +8,5 @@ jobs:
     steps:
     - uses: actions/first-interaction@v1
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        repo-token: ${{ secrets.SECRETS }}
         pr-message: 'Congratualtions on making your first Pull Request'' first pr'
