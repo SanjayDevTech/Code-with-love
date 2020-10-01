@@ -6,9 +6,9 @@
 
 using namespace std;
 
-long long bipower(long long a, long long n){
+int64_t binaryExponentiation(int64_t a, int64_t n){
     // Initializing result with 1
-    long long res = 1;
+    int64_t res = 1;
     
     // Looping to calculate result
     while(n > 0){
@@ -27,11 +27,11 @@ long long bipower(long long a, long long n){
 }
  
 int main(){
-    long long a, n;
+    int64_t a, n;
     cout << endl << "Enter a & n : ";
     cin >> a >> n;
 
-    long long res = bipower(a, n);
+    int64_t res = binaryExponentiation(a, n);
     cout << endl << "Result : " << res;
 
     return 0;
