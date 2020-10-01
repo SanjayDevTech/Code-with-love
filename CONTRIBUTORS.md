@@ -11,3 +11,4 @@ If you have contributed to this repository, kindly add your username here
 - [Giancarmine](https://github.com/Giancarmine)
 - [Mon Pacleb](https://github.com/bananaKetchup)
 - [lucifer79gg](https://github.com/lucifer79gg)
+- [sam0hack](https://github.com/sam0hack)
