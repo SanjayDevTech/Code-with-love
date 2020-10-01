@@ -4,6 +4,7 @@ If you have contributed to this repository, kindly add your username here
 
 
 - [SanjayDevtech](https://github.com/SanjayDevTech)
+- [jayshah6699](https://github.com/jayshah6699)
 - [hritikkhurana10sm](https://github.com/hritikkhurana10sm)
 - [finalight](https://github.com/finalight)
 - [Sandradell](https://github.com/Sandradell)
