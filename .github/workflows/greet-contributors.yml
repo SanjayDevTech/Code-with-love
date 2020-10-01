@@ -1,0 +1,15 @@
+name: "GreetContributor"
+on:
+  pull_request_target:
+    types: [opened,synchronize]
+    
+jobs:
+  GreetCommitter: 
+    runs-on: ubuntu-latest
+    steps:
+    - name: "Contributors!!!"
+      uses: ibakshay/greet-contributors-action@v3
+      env: 
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with: 
+        content: "Thank you for taking your time and effort for your contribution. If you are a new contributor to this repo, kindly add your username in [CONTRIBUTORS.md](https://github.com/SanjayDevTech/Code-with-love/blob/master/CONTRIBUTORS.md)"
