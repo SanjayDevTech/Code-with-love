@@ -1,0 +1,8 @@
+# C or CPP
+*.exe
+
+# Python
+__pycache__/
+
+# java or kotlin
+*.class
