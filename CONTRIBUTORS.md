@@ -3,6 +3,7 @@
 If you have contributed to this repository, kindly add your username here
 
 - [SanjayDevtech](https://github.com/SanjayDevTech)
+- [Harshit Sharma](https://github.com/harshithq)
 - [hritikkhurana10sm](https://github.com/hritikkhurana10sm)
 - [finalight](https://github.com/finalight)
 - [Sandradell](https://github.com/Sandradell)
@@ -25,3 +26,4 @@ If you have contributed to this repository, kindly add your username here
 - [qwertymaden](https://github.com/qwertymaden)
 - [mjnorton](https://github.com/mjnorton)
 - [gauravkhatri2698](https://github.com/gauravkhatri2698)
+
