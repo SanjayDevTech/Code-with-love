@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include <stdbool.h>
 
 bool array_is_valid(int *a, unsigned int length) {
     return ((length == 0 && a == NULL) || (length != 0 && a != NULL));
