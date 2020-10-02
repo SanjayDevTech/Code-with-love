@@ -117,3 +117,5 @@ At this point, you are ready to make a pull request to the original repository.
 Navigate to your forked repository, and press the “New pull request” button on your left-hand side of your Repo page.
 
 # Hurray! You have just created your First Pull Request.
+          
+#   HAPPY LEARNING    #
