@@ -63,7 +63,7 @@ int match_string(vector<char>& original, vector<char> match)
 int main()
 {
     std::vector<char> original,match;
-    int i,result,k=0,sum=0;
+    int i,result,k=0,sum=0,count=0;
  
     cout<<"Enter String:";
     input_string(original);
@@ -83,12 +83,14 @@ int main()
         {
             k++;
             cout<<"\nMatch found from Position = "<<sum;
+            count++;
         }
      } while (result > 0);   //loop to find all patterns
  
      if (k == 0)
          cout<<"Error:Match Not Found";
-     
-     cout<<endl;
+
+    cout<<endl;
+    cout<<"Matches found "<<count<<" times"<<endl;
      return 0;
 }
