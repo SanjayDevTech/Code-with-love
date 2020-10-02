@@ -2,7 +2,6 @@
 
 If you have contributed to this repository, kindly add your username here
 
-
 - [SanjayDevtech](https://github.com/SanjayDevTech)
 - [hritikkhurana10sm](https://github.com/hritikkhurana10sm)
 - [finalight](https://github.com/finalight)
@@ -14,6 +13,7 @@ If you have contributed to this repository, kindly add your username here
 - [afaditya](https://github.com/afaditya)
 - [aaishikasb](https://github.com/aaishikasb)
 - [sam0hack](https://github.com/sam0hack)
+- [shivajipotnuru](https://github.com/shivajipotnuru)
 - [albysabu9](https://github.com/albysabu9)
 - [Jayant-saksham](https://github.com/Jayant-saksham)
 - [Harshit564](https://github.com/Harshit564)
@@ -22,3 +22,4 @@ If you have contributed to this repository, kindly add your username here
 - [HarshitGupta150](https://github.com/HarshitGupta150)
 - [qwertymaden](https://github.com/qwertymaden)
 - [mjnorton](https://github.com/mjnorton)
+- [gauravkhatri2698](https://github.com/gauravkhatri2698)
