@@ -1,6 +1,8 @@
 # Code-with-love
-
-Open source programming algorithms
+<p>
+  
+<img src="https://1.bp.blogspot.com/-_0LKyBpwg_o/X3ZLZwpbYwI/AAAAAAAAFxc/RCMlNoMN_0cMyZ06p2aFSgyMXHLtZ4WPgCLcBGAsYHQ/s1200/Newsletter%2BFacebook%2BHeader%2B%25282%2529.jpg">
+  </p>
 
 ## Instructions:
 
