@@ -1,6 +1,5 @@
 
-#include<iostream>
-#include<algorithm>
+#include<bits/stdc++.h>
 using namespace std;
 
 bool compare(int a, int b){
