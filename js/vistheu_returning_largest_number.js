@@ -4,10 +4,10 @@ function largestOfFour(arr) {
   for(let x = 0; x < arr.length; x++){
     //sort the array
     arr[x].sort((a,b) => a - b);
-    push the last index of the array to an empty array
+    // push the last index of the array to an empty array
     newArr.push(arr[x].pop());
   }
-  return the newArray
+  // return the newArray
   return newArr;
 }
 
