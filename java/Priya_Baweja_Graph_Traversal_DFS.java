@@ -26,7 +26,7 @@ class Graph
 	} 
 
 	
-	void DFSUtil(int v,boolean visited[]) 
+	void dfsUtil(int v,boolean visited[]) 
 	{ 
 		
 		visited[v] = true; 
@@ -38,10 +38,13 @@ class Graph
 		{ 
 			int n = i.next(); 
 			if (!visited[n]) 
-				DFSUtil(n, visited); 
+				dfsUtil(n, visited); 
 		} 
 	} 
-
+    public void dfsTraversal(int v){
+      	boolean visited[] = new boolean[V];   
+      	dfsUtil(0, visited); 
+    }
 	
 	
 
@@ -55,10 +58,10 @@ class Graph
 		g.addEdge(2, 0); 
 		g.addEdge(2, 3); 
 		g.addEdge(3, 3); 
-		boolean visited[] = new boolean[V]; 
+	
 
 		System.out.println("The Depth First Traversal is "); 
-		DFSUtil(0, visited); 
+	    g.dfsTraversal(0);
 
 		
 	} 
