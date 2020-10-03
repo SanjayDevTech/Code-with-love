@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
  
 int getMax(int arr[], int n)
 {
@@ -40,17 +39,18 @@ void radixsort(int arr[], int n)
 void print(int arr[], int n)
 {
     for (int i = 0; i < n; i++)
-        cout << arr[i] << " ";
+        printf("%d "arr[i]);
 }
  
 int main()
 {
     int n;
-    cin>>n;
+    scanf("%d\n"&n);
     int arr[n];
     for(int i=0;i<n;i++) cin>>arr[i];
       // Function Call
       radixsort(arr, n);
     print(arr, n);
+    printf("\n");
     return 0;
 }
