@@ -6,4 +6,5 @@ function fib(n){
     return bottom_up_arr[n];
 }
 
-console.log(fib(75));
+console.log(fib(10));
+
