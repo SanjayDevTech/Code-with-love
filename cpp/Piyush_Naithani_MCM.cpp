@@ -38,7 +38,6 @@ int MCM(int p[],int n){
 
 }
 
-
 int main(){
 
     int p[] = {1,2,3,4};
