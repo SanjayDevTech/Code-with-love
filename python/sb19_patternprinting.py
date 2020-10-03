@@ -1,5 +1,6 @@
 '''
  Patter printing program
+ n*m  strik(*) pattren printing where n=no. of rows and m= no. of columns
 
 author : @sb19
 '''
