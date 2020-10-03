@@ -31,6 +31,7 @@ def inorder(root):
 
 
 r = Node(50)
+//for inserting//
 r = insert(r, 30)
 r = insert(r, 20)
 r = insert(r, 40)
