@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Table in HTML</title>
+	</head>
+	<body>
+		<h1>Table in HTML</h1>
+		<h4>Happy Hacktoberfest, guys!</h4>
+
+		<!-- Table -->
+		<!-- The border attribute will make the table has the border of 'x' pixel(s) -->
+		<table border="1">
+			<!-- This tag is used for declaring table header-->
+			<thead>
+				<!-- tr means Table Row -->
+				<tr>
+					<!-- th means Table Heading, which will create a cell in a row
+                    This row has 2 cells, so the table will have 2 columns for now -->
+					<th>Heading 1</th>
+					<th>Heading 2</th>
+				</tr>
+			</thead>
+
+			<!-- This tag is used for declaring table body -->
+			<tbody>
+				<tr>
+					<!-- td means Table Data, which will create a cell in a row -->
+					<td>Column 1</td>
+					<td>Column 2</td>
+				</tr>
+				<tr>
+					<td>Column 1</td>
+					<td>Column 2</td>
+				</tr>
+			</tbody>
+
+			<!-- This tag is used for declaring table footer -->
+			<tfoot>
+				<tr>
+					<!-- You can also use 'colspan=<number-of-columns>' to make 1 cell span the number of columns you want -->
+					<td colspan="2">Footer</td>
+				</tr>
+			</tfoot>
+		</table>
+	</body>
+</html>
