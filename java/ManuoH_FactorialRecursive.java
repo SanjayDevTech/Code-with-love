@@ -1,7 +1,7 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class FactorialRecursive {
+public class ManuoH_FactorialRecursive {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int loop = 1;
