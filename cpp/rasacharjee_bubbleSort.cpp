@@ -20,10 +20,10 @@ void bubbleSort(ll arr[], ll size)
 
 int main()
 {
-    ll arr[5] = {32, 8, 2, 5, 7};
-    bubbleSort(arr, 5);
+    ll arr[3] = {32, 8, 2};
+    bubbleSort(arr, 3);
     cout << "the array after bubble sort is\n";
-    for (ll i = 0; i < 5; i++)
+    for (ll i = 0; i < 3; i++)
     {
         cout << arr[i] << " ";
     }
