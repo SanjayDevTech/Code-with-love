@@ -7,9 +7,12 @@ int search(int array[], int n, int x) {
 
   // Going through array sequencially
   for (int i = 0; i < n; i++)
+  {
     if (array[i] == x)
-      return i;
+      {return i;}
+  }
   return -1;
+
 }
 
 int main() {
@@ -19,5 +22,5 @@ int main() {
 
   int result = search(array, n, x);
 
-  (result == -1) ? cout << "Element not found" : cout << "Element found at index: " << result;
+  (result == -1) ?cout << "Element not found" : cout << "Element found at index: " << result;
 }
