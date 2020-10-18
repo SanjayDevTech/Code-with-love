@@ -25,6 +25,7 @@ If you have contributed to this repository, kindly add your username here
 - [qwertymaden](https://github.com/qwertymaden)
 - [mjnorton](https://github.com/mjnorton)
 - [gauravkhatri2698](https://github.com/gauravkhatri2698)
+- [smallawat](https://github.com/smallawat)
 - [Lza_etc](https://github.com/Lza-etc)
 - [Architjain128](https://github.com/Architjain128)
 - [omkarkurund](https://github.com/omkarkurund)             
