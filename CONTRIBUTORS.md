@@ -26,6 +26,7 @@ If you have contributed to this repository, kindly add your username here
 - [mjnorton](https://github.com/mjnorton)
 - [ankur2825](https://github.com/ankur2825)
 - [gauravkhatri2698](https://github.com/gauravkhatri2698)
+- [Rohitkumar131102](https://github.com/Rohitkumar131102)
 - [prachi411](https://github.com/prachi411)
 - [NoobSolver](https://github.com/NoobSolver)
 - [peprick](https://github.com/peprick)
