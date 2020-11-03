@@ -47,5 +47,6 @@ If you have contributed to this repository, kindly add your username here
 - [AroshanaD](https://github.com/AroshanaD)
 - [sameer-ahmed-17](https://github.com/sameer-ahmed-17)
 - [aayushee25](https://github.com/Aayushee25)
+- [aman-ku](https://github.com/aman-ku)
 - [anbclausen](https://github.com/anbclausen)
 - [Pulkit Aggarwal](https://github.com/PulkitAgg)
