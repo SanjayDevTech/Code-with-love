@@ -1,0 +1,83 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+map<int, int> HashMap;
+map<int, int> :: iterator it;
+vector<int> levelOrder;
+
+struct Node{
+	int data;
+	Node *left;
+	Node *right;
+	
+	Node(int x){
+		data =x;
+		left = NULL;
+		right = NULL;
+	}
+};
+
+void Leveltrav(Node *root){
+	if(root == NULL)
+		return;
+	 
+	queue<Node*> q;
+	q.push(root);
+	while(!q.empty()){
+		Node *temp = q.front();
+		levelOrder.push_back(temp->data);
+		q.pop();
+		if(temp->left)
+			q.push(temp->left);
+		if(temp->right)
+			q.push(temp->right);
+	}
+}
+
+
+int whichBefore(int a, int b){
+	for(int i=0; i<levelOrder.size(); i++){
+		if(levelOrder[i]==a)
+			return a;
+		if(levelOrder[i]==b)
+			return b;
+	}
+	return 0;
+}
+
+
+void topView(Node *root, int hd){
+	if(root == NULL){
+		return;
+	}
+	if(!HashMap[hd])
+		HashMap[hd] = root->data;
+	else
+		HashMap[hd] = whichBefore(HashMap[hd], root->data);
+	topView(root->left, hd-1);
+	topView(root->right, hd+1);
+	return;
+}
+
+
+
+int main()
+{
+	Node *root  = new Node(1);
+	root->left = new Node(2);
+	root->right = new Node(3);
+	root->left->right = new Node(4);
+	root->left->right->right = new Node(5);
+	root->left->right->right->right = new Node(6);
+	root->left->right->right->right->right = new Node(7);
+	
+	Leveltrav(root);
+	
+	topView(root, 0);
+	for(it = HashMap.begin(); it!= HashMap.end(); it++){
+		cout<<it->second<<" ";
+	}
+	
+	return 0;
+	
+}
