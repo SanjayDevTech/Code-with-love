@@ -2,14 +2,15 @@
 #Written by GhostUser on 1.10.2020
 def merge(S1,S2,S):
     print(S1,S2)
-    i=j=0
+    i=0
+    j=0
     while i+j<len(S):
-        if j==len(S2) or (i<len(S1) and S1[i]<S2[j]):
+        if (j==len(S2)) or (i<len(S1) and S1[i]<S2[j]):
             S[i+j]=S1[i]
             i+=1
         else:
             S[i+j]=S2[j]
-            j+=1
+            j=j+1
     return S 
 
 def merge_sort(arr):
