@@ -1,7 +1,6 @@
 <?php
-// Run as php hello_world.php
 
-echo "Hello, World!";
+echo "I Love My , India";
 
 
 ?>
