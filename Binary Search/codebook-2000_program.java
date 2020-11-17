@@ -7,15 +7,15 @@ class Student
     static int binarySearch(int arr[],int key)
     {
         
-        int lo=0;
+        int log=0;
         int hi=arr.length-1;
-        while(lo<=hi)
+        while(log<=hi)
         {
-            int mid=lo+(hi-lo)/2;
+            int mid=log+(hi-lo)/2;
             if(arr[mid]==key)
             return mid;
             else if(arr[mid]<key)
-            lo=mid+1;
+            log=mid+1;
             else
             hi=mid-1;
         }
