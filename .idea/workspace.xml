@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="66122069-adc8-4340-aab9-94ed12a04b33" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iHTmZNsJBeMHmGlTvRVMh9oPmh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration name="nshattuck_selection_sort" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Codechef" />
+      <module name="Code-with-love" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="66122069-adc8-4340-aab9-94ed12a04b33" name="Default Changelist" comment="" />
+      <created>1601563676717</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601563676717</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="366" y="163" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601564812486">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="366" y="163" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1601564812486" />
+    <state x="576" y="257" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1601564827420">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="576" y="257" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1601564827420" />
+    <state x="514" y="101" key="#nshattuck_selection_sort" timestamp="1601564830789">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="514" y="101" key="#nshattuck_selection_sort/0.23.1920.1057@0.23.1920.1057" timestamp="1601564830789" />
+  </component>
+</project>
