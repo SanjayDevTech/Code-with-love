@@ -1,0 +1,45 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+map<int, int> HashMap;
+map<int, int> :: iterator it;
+
+struct Node{
+	int data;
+	Node *left;
+	Node *right;
+	
+	Node(int x){
+		data =x;
+		left = NULL;
+		right = NULL;
+	}
+};
+
+void verticalSum(Node *root, int hd){
+	if(root == NULL){
+		return;
+	}
+	HashMap[hd] += root->data;
+	verticalSum(root->left, hd-1);
+	verticalSum(root->right, hd+1);
+	return;
+}
+
+int main()
+{
+	Node *root  = new Node(1);
+	root->left = new Node(5);
+	root->right = new Node(7);
+	root->right->left = new Node(6);
+	root->right->right = new Node(10);
+	root->left->right = new Node(11);
+	
+	verticalSum(root, 0);
+	for(it = HashMap.begin(); it!= HashMap.end(); it++){
+		cout<<it->second<<" "<<endl;
+	}
+	
+	return 0;
+	
+}
