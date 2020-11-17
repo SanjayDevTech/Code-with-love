@@ -1,0 +1,19 @@
+#include<bits/stdc++.h>
+
+using namespace std;
+
+int main(){
+	int a[] = {10, 22, 9, 33, 40, 5, 34, 90, 65, 70};
+	int v[10] = {1};
+	for(int i=1; i<10; i++){
+		int j=0;
+		while(j<i){
+			if(a[i]>a[j]){
+				if(v[i]<v[j]+1)
+					v[i] = v[j]+1;
+			}
+			j++;
+		}
+	}
+	cout<<v[9];
+}
