@@ -1,7 +1,7 @@
 <?php
-// Run as php hello_world.php
-
-echo "Hello, World!";
-
-
+  
+  $string = 'Hello World!<br>';
+  echo $string;
+  print $string;
+  printf('%s', $string);
 ?>
