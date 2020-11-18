@@ -1,0 +1,27 @@
+#include <bits/stdc++.h>
+// Program to reverse multiple numbers at one time.
+
+using namespace std;
+ 
+int main()
+{
+  int n;
+  cout<<"How many numbers you want to reverse: "<<endl;
+  cin >>n;
+  for (int i=0;i<n;i++)
+  {
+  	int a ;
+    cout<<"Enter the number: "<<endl;
+  	cin>>a;
+  	long invert = 0;
+
+	while (a!= 0) {
+	  invert*=10;
+	  invert+=a%10;
+	  a=a/10;
+	  }
+	  cout <<"Reverse of your number is: "<<invert<<endl ;
+  }
+ 
+  return 0;
+}
