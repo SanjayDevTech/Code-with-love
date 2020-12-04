@@ -51,27 +51,39 @@ class Tree {
   }
 
   /* 
-  * Method to remove a Tree if it has a certain value
+  * Method to remove and 
+  * return all the (children) Trees if it they a certain value
   */
   remove(value) {
-    let removedValue;
-    function searchValue(tree) {
-      let childHasValue = false;
+    // initializes the array that will contain all the removed trees
+    const removedTrees = [];
+    /* 
+    * declare a removeValue function that travels recursivly
+    * through the Tree and his Children, if it finds a child 
+    * with the matching value, it pushed it to removedTrees  
+    * and removes it from the list of children
+    */
+    function removeValue(tree) {
+      // if a tree has children
       if (tree.children !== []) {
+        // iterate through the children
         for (const child of tree.children) {
+          // if the child(Tree) has a matching value
           if (child.value === value) {
-            childHasValue = true;
-            removedValue = child;
-          }
-          if (childHasValue) {
+            // pushes the child(Tree) into removedTrees
+            removedTrees.push(child);
+            // removes the child(Tree) from the parent children array
             tree.children.splice(tree.children.indexOf(removedValue), 1);
-          } else {
-            for (const child of tree.children) searchValue(child);
+            } 
           }
+          // afterwards iterates through the remaining children
+          // by calling removeValue recursivly
+          for (const child of tree.children) removeValue(child);
         }
       }
-    }
-    searchValue(this);
+    // calls removeValue
+    removeValue(this);
     // returns the removed value
     return removedValue;
   }
+}
