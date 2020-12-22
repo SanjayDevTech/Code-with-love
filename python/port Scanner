@@ -1,0 +1,11 @@
+import socket as s
+from datetime import datetime
+rs = raw_input("Enter a remote host")
+rsip = s.gethostbyname(rs)
+t1=datetime.now()
+for port in range (70,200):
+    so = s.socket(s.AF_INET,s.SOCK_STREAM)
+    res=so.connect_ex((rsip,port))
+    if res==0:
+        print "port{}:\tOpen".format(port)
+    so.close()
