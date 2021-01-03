@@ -1,26 +1,26 @@
 //function to swap elements
-function swap(arr, first_Index, second_Index) {
-  var temp = arr[first_Index];
-  arr[first_Index] = arr[second_Index];
-  arr[second_Index] = temp;
+function swap(a, first_Index, second_Index) {
+  var temp = a[first_Index];
+  a[first_Index] = a[second_Index];
+  a[second_Index] = temp;
 }
 
 //function for bubble sort
-function bubbleSort(arr) {
-  var len = arr.length,
+function bubbleSort(a) {
+  var l = a.length;
     i,
     j,
     stop;
 
-  for (i = 0; i < len; i++) {
-    for (j = 0, stop = len - i; j < stop; j++) {
-      if (arr[j] > arr[j + 1]) {
-        swap(arr, j, j + 1);
+  for (i = 0; i < l; i++) {
+    for (j = 0, stop = l - i; j < stop; j++) {
+      if (a[j] > a[j + 1]) {
+        swap(a, j, j + 1);
       }
     }
   }
-  return arr;
+  return a;
 }
 
-var arr = [3, 2, 4, 1, 5];
-console.log(bubbleSort(arr));
+var a = [3, 2, 4, 1, 5];
+console.log(bubbleSort(a));
