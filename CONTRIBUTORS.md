@@ -26,6 +26,7 @@ If you have contributed to this repository, kindly add your username here
 - [HarshitGupta150](https://github.com/HarshitGupta150)
 - [qwertymaden](https://github.com/qwertymaden)
 - [mjnorton](https://github.com/mjnorton)
+- [Aditya Kumar Gupta](https://github.com/geekquad)
 - [Shubhavee](https://github.com/shubhavee)
 - [Ameenrehman](https://github.com/Ameenrehman)
 - [MihirBani2000](https://github.com/MihirBani2000)
