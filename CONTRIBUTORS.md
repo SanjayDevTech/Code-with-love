@@ -26,6 +26,7 @@ If you have contributed to this repository, kindly add your username here
 - [HarshitGupta150](https://github.com/HarshitGupta150)
 - [qwertymaden](https://github.com/qwertymaden)
 - [mjnorton](https://github.com/mjnorton)
+- [not-Aishik](https://github.com/not-Aishik)
 - [BrijeshKumar](https://github.com/brijeshsos66)
 - [aryansingho7](https://github.com/aryansingho7)
 - [Archisman Ghosh](https://github.com/archi-007)
