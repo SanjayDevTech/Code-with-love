@@ -2,7 +2,7 @@
 <head>
 <title>Leap year or not</title></head>
 <body>
-<h1>This page will show the leap year</h1>
+<h1>This page will show the leap years</h1>
 </body>
 </html>
 
