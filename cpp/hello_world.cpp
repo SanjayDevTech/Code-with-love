@@ -1,7 +1,18 @@
-// Run as g++ hello_world.cpp then ./a.out
-#include<iostream>
-int main() {
+#include <iostream>
+using namespace std;
 
-	std::cout << "Hello, World!" << std::endl;
-	return 0;
+int main(){
+    for(int i = 0; i < 15; i++){
+        for(int j = 0; j < i; j++){
+            cout << " ";
+        }
+        cout << "Hello, World!\n";
+    }
+    for(int i = 14; i >= 0; i--){
+        for(int j = i; j >= 0; j--){
+            cout << " ";
+        }
+        cout << "Hello, World!\n";
+    }
+    return 0;
 }

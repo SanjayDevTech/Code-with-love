@@ -18,6 +18,18 @@ int binarysearch(int array[],int begin,int end,int element){
     cout<<"Not Found!!!";
     return 0;
 } 
+
+
+// using stl the code becomes shorter and prerequisites is array should be sorted.
+int binarySearchUsingStl(int array[], int size, int element) {
+    return binary_search(array, array + size, element);
+
+// there is an alternate method using stl 
+int binarySearch(int array[], int size, int element) {
+    return binary_search(array, array + size, element); // returns true if element exists otherwise false
+
+}
+
 int main()
 {
     int element,array[]={1,23,28,34,37,56,78,83,89,90};
