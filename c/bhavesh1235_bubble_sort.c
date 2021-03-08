@@ -17,19 +17,16 @@ int main(){
 
    /* This is the main logic of bubble sort algorithm 
     */
-   for(i=count-2;i>=0;i--){
-      for(j=0;j<=i;j++){
-        if(num[j]>num[j+1]){
+   for(i=0;i<count-1;i++)
+      for(j=1;j<count-i-1;j++)
+        if(num[j]>num[j+1])
+        {
            temp=num[j];
            num[j]=num[j+1];
            num[j+1]=temp;
         }
-      }
-   }
-
    printf("Sorted elements after performing bubble sort are: ");
    for(i=0;i<count;i++)
       printf(" %d",num[i]);
-
    return 0;
 }
