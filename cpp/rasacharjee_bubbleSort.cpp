@@ -1,31 +1,41 @@
-#include <bits/stdc++.h>
-#define ll long long int
+#include<iostream>
 using namespace std;
-// Bubble Sort
-void bubbleSort(ll arr[], ll size)
-{
-    for (ll i = 0; i < size; i++)
-    {
-        for (ll j = i; j < size; j++)
-        {
-            if (arr[i] > arr[j])
-            {
-                ll temp = arr[i];
-                arr[i] = arr[j];
-                arr[j] = temp;
-            }
-        }
-    }
+void swapping(int &a, int &b) {      //swap the content of a and b
+   int temp;
+   temp = a;
+   a = b;
+   b = temp;
 }
-
-int main()
-{
-    ll arr[3] = {32, 8, 2};
-    bubbleSort(arr, 3);
-    cout << "the array after bubble sort is\n";
-    for (ll i = 0; i < 3; i++)
-    {
-        cout << arr[i] << " ";
-    }
-    return 0;
+void display(int *array, int size) {
+   for(int i = 0; i<size; i++)
+      cout << array[i] << " ";
+   cout << endl;
+}
+void bubbleSort(int *array, int size) {
+   for(int i = 0; i<size; i++) {
+      int swaps = 0;         //flag to detect any swap is there or not
+      for(int j = 0; j<size-i-1; j++) {
+         if(array[j] > array[j+1]) {       //when the current item is bigger than next
+            swapping(array[j], array[j+1]);
+            swaps = 1;    //set swap flag
+         }
+      }
+      if(!swaps)
+         break;       // No swap in this pass, so array is sorted
+   }
+}
+int main() {
+   int n;
+   cout << "Enter the number of elements: ";
+   cin >> n;
+   int arr[n];     //create an array with given number of elements
+   cout << "Enter elements:" << endl;
+   for(int i = 0; i<n; i++) {
+      cin >> arr[i];
+   }
+   cout << "Array before Sorting: ";
+   display(arr, n);
+   bubbleSort(arr, n);
+   cout << "Array after Sorting: ";
+   display(arr, n);
 }
