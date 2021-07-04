@@ -41,6 +41,7 @@ If you have contributed to this repository, kindly add your username here
 - [kishanpython](https://github.com/kishanpython)
 - [ankur2825](https://github.com/ankur2825)
 - [gauravkhatri2698](https://github.com/gauravkhatri2698)
+- [eidoriantan](https://github.com/eidoriantan)
 - [manviiguptaa](https://github.com/manviiguptaa)
 - [anukaal](https://github.com/anukaal)
 - [alvinma](https://github.com/alvinma)
