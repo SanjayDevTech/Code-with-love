@@ -1,7 +1,7 @@
 # Contributors
 
 If you have contributed to this repository, kindly add your username here
-
+- [Ayushi0901](https://github.com/Ayushi0901)
 - [SanjayDevtech](https://github.com/SanjayDevTech)
 - [AkshitaSakshi](https://github.com/Ashsakshi19)
 - [hritikkhurana10sm](https://github.com/hritikkhurana10sm)
