@@ -7,19 +7,13 @@ int main()
 	int n;
 	cin>>n;
 	if(n==1)
-	{
 	    cout<<"1 is neither prime nor composite.";
-	}
 	else
 	{
-	if(isprime(n)==1)
-	{
-	    cout<<"given number is prime number.";
-	}
-	if(isprime(n)==0)
-	{
-	    cout<<"given number is not a prime number.";
-	}
+		if(isprime(n))
+	    		cout<<"given number is prime number.";
+		else
+	   		cout<<"given number is not a prime number.";
 	}
 	return 0;
 }  
@@ -27,25 +21,13 @@ int main()
  //function for prime_check
  int isprime(int n)
  {
- 	int i,count=0;
- 	for(i=1;i<=n/2;i++)
+ 	int i;
+ 	for(i=2;i<=n/2;i++)
  	{
  		if(n%i==0)
- 		 {
- 			count++;
-		 }
-	 }
-   
-   //if a number is only divisible by 1 in the above loop.
-	 if(count==1)
-	 {
-	 	return 1;
-	 }
-   //if a number is divisible by more than one number in above loop
-	 else
-	 {
-	 	return 0;
-	 }
+ 		    return 0;
+	}
+   return 1;
   }
   
    /*sample input-output
