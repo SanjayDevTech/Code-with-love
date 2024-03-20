@@ -2,6 +2,7 @@
 
 If you have contributed to this repository, kindly add your username here
 
+- [Rohit Shakya](https://github.com/rohitshakya)
 - [SanjayDevtech](https://github.com/SanjayDevTech)
 - [AkshitaSakshi](https://github.com/Ashsakshi19)
 - [hritikkhurana10sm](https://github.com/hritikkhurana10sm)
